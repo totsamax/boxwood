@@ -1,1 +1,141 @@
 @import '_vars.scss';
+a,
+a:visited {
+    color: #8dad2d
+}
+
+a:hover,
+a:visited:hover {
+    color: #6c8522
+}
+
+ul {
+    margin: 0;
+    padding: 0
+}
+
+ul li {
+    list-style-type: none
+}
+
+body {
+    //background-image: url(../img/bg.jpg);
+    background-color: #aaa;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Verdana';
+    font-size: 14px
+}
+
+.container {
+    position: relative;
+    min-height: 100%;
+    padding-bottom: 100px
+}
+
+.container .header {
+    background-color: rgba(255, 255, 255, .9)
+}
+
+.container .header .tel {
+    font-size: 16px
+}
+
+@media (min-width:768px) {
+    .container .header .tel {
+        font-size: 16px;
+        position: absolute;
+        top: 10px;
+        right: 10px
+    }
+}
+
+@media (min-width:992px) {
+    .container .header .tel {
+        font-size: 20px;
+        position: absolute;
+        top: 10px;
+        right: 50px
+    }
+}
+
+.container .logo,
+.container .logo>a,
+.container .logo>a:hover,
+.container .logo>a:visited {
+    text-align: center;
+    text-decoration: none;
+    font-size: 34px;
+    color: #4b5c18;
+    padding: 20px 0
+}
+
+.container .nav .nav-item {
+    display: inline-block;
+    font-size: 18px;
+    border-right: 1px solid #8dad2d;
+    white-space: nowrap;
+    padding: 10px
+}
+
+.container .nav .nav-item:last-child {
+    border: none
+}
+
+.container .main {
+    background-color: rgba(255, 255, 255, .9);
+    padding: 10px 10px 56px
+}
+
+@media (min-width:768px) {
+    .container .main {
+        padding: 20px 50px 56px
+    }
+}
+
+.container .main h1 {
+    color: #4b5c18
+}
+
+.container .main .index-gal .index-gal-inner {
+    max-height: 100px;
+    margin-bottom: 20px
+}
+
+@media (min-width:768px) {
+    .container .main .index-gal .index-gal-inner {
+        max-height: 300px
+    }
+}
+
+.container .main .index-gal .index-gal-inner .item>img,
+.container .main .index-gal .thumbnails li img {
+    margin: 0 auto
+}
+
+.container .main .index-gal .thumbnails {
+    text-align: center
+}
+
+.container .main .index-gal .thumbnails li {
+    cursor: pointer
+}
+
+.container .main .contacts-text {
+    margin-bottom: 20px
+}
+
+.container .main .contacts-map {
+    height: 400px;
+    width: 100%
+}
+
+.container .footer-row {
+    background-color: rgba(255, 255, 255, .7);
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 10px
+}

@@ -5,7 +5,7 @@ var prefix = require('gulp-autoprefixer');
 var useref = require('gulp-useref');
 var gulpif = require('gulp-if');
 var uglify = require('gulp-uglify');
-var minifyCss = require('gulp-csso');
+var csso = require('gulp-csso');
 var imagemin = require('gulp-imagemin');
 var cleanDest = require('gulp-clean-dest');
 

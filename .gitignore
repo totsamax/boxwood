@@ -4,4 +4,4 @@ app/css/
 public
 .vscode
 *.DS_Store
-
+*.md
