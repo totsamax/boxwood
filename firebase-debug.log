@@ -1,0 +1,45 @@
+[debug] ----------------------------------------------------------------------
+[debug] Command:      C:\Program Files\nodejs\node.exe C:\Users\totsa\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy
+[debug] CLI Version:  3.6.1
+[debug] Platform:     win32
+[debug] Node Version: v6.10.2
+[debug] Time:         Tue Apr 18 2017 16:51:16 GMT+0300 (RTZ 2 (зима))
+[debug] ----------------------------------------------------------------------
+[debug] 
+[debug] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/boxwood-ccb78  
+ Tue Apr 18 2017 16:51:16 GMT+0300 (RTZ 2 (зима))
+[debug] <<< HTTP RESPONSE 200
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/boxwood-ccb78/tokens  
+ Tue Apr 18 2017 16:51:17 GMT+0300 (RTZ 2 (зима))
+[debug] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'boxwood-ccb78'...
+[info] 
+[info] i  deploying database, functions, hosting
+[info] +  database: rules ready to deploy.
+[debug] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "dependencies": {
+    "firebase-admin": "~4.1.2",
+    "firebase-functions": "^0.5"
+  },
+  "private": true
+}
+[info] i  functions: ensuring necessary APIs are enabled...
+[info] i  runtimeconfig: ensuring necessary APIs are enabled...
+[debug] >>> HTTP REQUEST GET https://servicemanagement.googleapis.com/v1/services/cloudfunctions.googleapis.com/projectSettings/boxwood-ccb78?view=CONSUMER_VIEW  
+ Tue Apr 18 2017 16:51:20 GMT+0300 (RTZ 2 (зима))
+[debug] >>> HTTP REQUEST GET https://servicemanagement.googleapis.com/v1/services/runtimeconfig.googleapis.com/projectSettings/boxwood-ccb78?view=CONSUMER_VIEW  
+ Tue Apr 18 2017 16:51:20 GMT+0300 (RTZ 2 (зима))
+[debug] <<< HTTP RESPONSE 200
+[info] +  runtimeconfig: all necessary APIs are enabled
+[debug] <<< HTTP RESPONSE 200
+[info] +  functions: all necessary APIs are enabled
+[debug] >>> HTTP REQUEST GET https://appengine.googleapis.com/v1/apps/boxwood-ccb78  
+ Tue Apr 18 2017 16:51:22 GMT+0300 (RTZ 2 (зима))
+[debug] >>> HTTP REQUEST GET https://apikeys.googleapis.com/v1/projects/boxwood-ccb78/apiKeys  
+ Tue Apr 18 2017 16:51:22 GMT+0300 (RTZ 2 (зима))
+[debug] <<< HTTP RESPONSE 200
+[debug] <<< HTTP RESPONSE 200
